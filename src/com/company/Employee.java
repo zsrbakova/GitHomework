@@ -27,5 +27,13 @@ public class Employee {
     public void setSurname(String surname) {
         this.surname = surname;
     }
+
+    public String getStartDate() {
+        return StartDate;
+    }
+
+    public void setStartDate(String startDate) {
+        StartDate = startDate;
+    }
 }
 
